@@ -22,7 +22,8 @@
     "build": "craco build",
     "eject": "craco eject",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
-    "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\""
+    "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
+    "dev:db": "json-server db.json --watch --port=8888"
   },
   "browserslist": {
     "production": [
