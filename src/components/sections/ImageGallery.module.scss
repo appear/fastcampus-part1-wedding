@@ -1,0 +1,25 @@
+.wrap-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+
+    .wrap-image {
+        width: 100%;
+        position: relative;
+
+        &::after {
+            display: block;
+            content: "";
+            padding-bottom: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    }
+}
