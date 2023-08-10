@@ -1,4 +1,5 @@
 import classNames from 'classnames/bind'
+import React from 'react'
 
 import styles from './Section.module.scss'
 
@@ -11,7 +12,7 @@ function Section({
 }: {
   children: React.ReactNode
   className?: string
-  title?: string
+  title?: React.ReactNode
 }) {
   return (
     <section className={cx(['container', className])}>
