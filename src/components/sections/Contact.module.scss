@@ -1,0 +1,30 @@
+.wrap-contact {
+    display: flex;
+    padding: 8px;
+
+    .wrap-contact-info {
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.3;
+    }
+
+    .wrap-buttons {
+        .button {
+            width: 52px;
+            height: 24px;
+            border: 1px solid var(--black);
+            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            background-color: #fff;
+            font-weight: 400;
+            margin-bottom: 6px;
+            box-sizing: border-box;
+            color: var(--black);
+            cursor: pointer;
+        }
+    }
+}

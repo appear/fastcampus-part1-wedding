@@ -1,0 +1,35 @@
+.wrap-accoridon {
+    margin-bottom: 6px;
+
+    .wrap-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: var(--beige);
+        border-radius: 6px;
+        cursor: pointer;
+
+        .ico-arrow-down {
+            width: 20px;
+            height: 20px;
+
+           
+        }
+    }
+
+    .wrap-content {
+        display: none;
+    }
+}
+
+.wrap-accoridon.open {
+    .wrap-header {
+        .ico-arrow-down {
+          transform: rotate(-180deg);
+        }
+    }
+    .wrap-content {
+        display: block;
+    }
+}

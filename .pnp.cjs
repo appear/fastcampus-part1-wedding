@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:16.18.39"],\
             ["@types/react", "npm:18.2.18"],\
+            ["@types/react-copy-to-clipboard", "npm:5.0.4"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["@types/testing-library__jest-dom", "npm:5.14.9"],\
             ["classnames", "npm:2.3.2"],\
@@ -48,6 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["json-server", "npm:0.17.3"],\
             ["prettier", "npm:3.0.1"],\
             ["react", "npm:18.2.0"],\
+            ["react-copy-to-clipboard", "virtual:99351dcbda13046a27fca3d11f7b0445915f31318f41f0416f31329d259c175c92fa8630e4af4b72fc1619a8ea0c0884b253e0ccc4c2099877ca62eff9788c65#npm:5.1.0"],\
             ["react-day-picker", "virtual:99351dcbda13046a27fca3d11f7b0445915f31318f41f0416f31329d259c175c92fa8630e4af4b72fc1619a8ea0c0884b253e0ccc4c2099877ca62eff9788c65#npm:8.8.0"],\
             ["react-dom", "virtual:99351dcbda13046a27fca3d11f7b0445915f31318f41f0416f31329d259c175c92fa8630e4af4b72fc1619a8ea0c0884b253e0ccc4c2099877ca62eff9788c65#npm:18.2.0"],\
             ["react-scripts", "virtual:99351dcbda13046a27fca3d11f7b0445915f31318f41f0416f31329d259c175c92fa8630e4af4b72fc1619a8ea0c0884b253e0ccc4c2099877ca62eff9788c65#npm:5.0.1"],\
@@ -5054,6 +5056,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/react-copy-to-clipboard", [\
+        ["npm:5.0.4", {\
+          "packageLocation": "./.yarn/cache/@types-react-copy-to-clipboard-npm-5.0.4-cc4f7d72b2-c0fe51b79a.zip/node_modules/@types/react-copy-to-clipboard/",\
+          "packageDependencies": [\
+            ["@types/react-copy-to-clipboard", "npm:5.0.4"],\
+            ["@types/react", "npm:18.2.18"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/react-dom", [\
         ["npm:18.2.7", {\
           "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.2.7-a20ba684a5-e02ea90828.zip/node_modules/@types/react-dom/",\
@@ -7422,6 +7434,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/cookie-signature-npm-1.0.6-93f325f7f0-f4e1b0a98a.zip/node_modules/cookie-signature/",\
           "packageDependencies": [\
             ["cookie-signature", "npm:1.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["copy-to-clipboard", [\
+        ["npm:3.3.3", {\
+          "packageLocation": "./.yarn/cache/copy-to-clipboard-npm-3.3.3-6964e6cfad-e0a325e39b.zip/node_modules/copy-to-clipboard/",\
+          "packageDependencies": [\
+            ["copy-to-clipboard", "npm:3.3.3"],\
+            ["toggle-selection", "npm:1.0.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -13905,6 +13927,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:16.18.39"],\
             ["@types/react", "npm:18.2.18"],\
+            ["@types/react-copy-to-clipboard", "npm:5.0.4"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["@types/testing-library__jest-dom", "npm:5.14.9"],\
             ["classnames", "npm:2.3.2"],\
@@ -13918,6 +13941,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["json-server", "npm:0.17.3"],\
             ["prettier", "npm:3.0.1"],\
             ["react", "npm:18.2.0"],\
+            ["react-copy-to-clipboard", "virtual:99351dcbda13046a27fca3d11f7b0445915f31318f41f0416f31329d259c175c92fa8630e4af4b72fc1619a8ea0c0884b253e0ccc4c2099877ca62eff9788c65#npm:5.1.0"],\
             ["react-day-picker", "virtual:99351dcbda13046a27fca3d11f7b0445915f31318f41f0416f31329d259c175c92fa8630e4af4b72fc1619a8ea0c0884b253e0ccc4c2099877ca62eff9788c65#npm:8.8.0"],\
             ["react-dom", "virtual:99351dcbda13046a27fca3d11f7b0445915f31318f41f0416f31329d259c175c92fa8630e4af4b72fc1619a8ea0c0884b253e0ccc4c2099877ca62eff9788c65#npm:18.2.0"],\
             ["react-scripts", "virtual:99351dcbda13046a27fca3d11f7b0445915f31318f41f0416f31329d259c175c92fa8630e4af4b72fc1619a8ea0c0884b253e0ccc4c2099877ca62eff9788c65#npm:5.0.1"],\
@@ -16104,6 +16128,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-copy-to-clipboard", [\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/cache/react-copy-to-clipboard-npm-5.1.0-de9742f2bc-f00a4551b9.zip/node_modules/react-copy-to-clipboard/",\
+          "packageDependencies": [\
+            ["react-copy-to-clipboard", "npm:5.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:99351dcbda13046a27fca3d11f7b0445915f31318f41f0416f31329d259c175c92fa8630e4af4b72fc1619a8ea0c0884b253e0ccc4c2099877ca62eff9788c65#npm:5.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-copy-to-clipboard-virtual-9006db6fe2/0/cache/react-copy-to-clipboard-npm-5.1.0-de9742f2bc-f00a4551b9.zip/node_modules/react-copy-to-clipboard/",\
+          "packageDependencies": [\
+            ["react-copy-to-clipboard", "virtual:99351dcbda13046a27fca3d11f7b0445915f31318f41f0416f31329d259c175c92fa8630e4af4b72fc1619a8ea0c0884b253e0ccc4c2099877ca62eff9788c65#npm:5.1.0"],\
+            ["@types/react", "npm:18.2.18"],\
+            ["copy-to-clipboard", "npm:3.3.3"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-day-picker", [\
         ["npm:8.8.0", {\
           "packageLocation": "./.yarn/cache/react-day-picker-npm-8.8.0-aaf407517d-c104b4ae44.zip/node_modules/react-day-picker/",\
@@ -18067,6 +18115,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["to-regex-range", "npm:5.0.1"],\
             ["is-number", "npm:7.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["toggle-selection", [\
+        ["npm:1.0.6", {\
+          "packageLocation": "./.yarn/cache/toggle-selection-npm-1.0.6-c506b73005-a90dc80ed1.zip/node_modules/toggle-selection/",\
+          "packageDependencies": [\
+            ["toggle-selection", "npm:1.0.6"]\
           ],\
           "linkType": "HARD"\
         }]\
