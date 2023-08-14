@@ -9,7 +9,7 @@ export interface Wedding {
     invitation: string
   }
   galleryImages: string[]
-  attendCount: string
+  attendCount: number
 }
 
 export interface Location {
