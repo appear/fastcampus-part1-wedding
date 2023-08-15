@@ -3,6 +3,7 @@ import classNames from 'classnames/bind'
 import Section from '@shared/Section'
 import { ko } from 'date-fns/locale'
 import { DayPicker } from 'react-day-picker'
+import { memo } from 'react'
 
 import 'react-day-picker/dist/style.css'
 import styles from './Calendar.module.scss'
@@ -60,4 +61,4 @@ function Calendar({ date }: { date: string }) {
   )
 }
 
-export default Calendar
+export default memo(Calendar)
