@@ -10,6 +10,8 @@ function AttendCountModal({ wedding }: { wedding: Wedding }) {
   const haveSeenModal = localStorage.getItem('@have-seen-modal')
 
   useEffect(() => {
+    console.log('hi')
+
     if (haveSeenModal === 'true') {
       return
     }
@@ -50,7 +52,7 @@ function AttendCountModal({ wedding }: { wedding: Wedding }) {
         close()
       },
     })
-  }, []) // eslint-disable-line
+  }, [open, close, wedding, haveSeenModal])
 
   return null
 }
