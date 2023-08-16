@@ -1,3 +1,3 @@
 export function getWedding() {
-  return fetch('http://localhost:8888/wedding')
+  return fetch('http://localhost:8888/wedding2222')
 }
